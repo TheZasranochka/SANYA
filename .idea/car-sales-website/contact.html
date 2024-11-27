@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Контактная информация</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="car-details.html">Каталог</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <section id="contact-form" class="contact-form">
+    <h2>Оставьте заявку</h2>
+    <form action="submit_form.php" method="POST">
+      <div class="form-group">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <button type="submit" class="btn">Отправить заявку</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Автосалон. Все права защищены.</p>
+  </div>
+</footer>
+</body>
+</html>
